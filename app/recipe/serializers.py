@@ -20,3 +20,10 @@ class RecipeSerializer(serializers.ModelSerializer):
             "link"
         ]
         read_only_fields = ["id"]
+
+
+class RecipeDetailSerializer(RecipeSerializer):
+    """Sertializer for recipe detail object"""
+
+    class Meta(RecipeSerializer.Meta):
+        fields = RecipeSerializer.Meta.fields + ["description"]
