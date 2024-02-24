@@ -1,7 +1,7 @@
 # Recipe REST API (Django)
 Site link: https://ec2-13-53-193-188.eu-north-1.compute.amazonaws.com/
 
-Welcome to the heart of our recipe app: a slick backend with user authentication, smooth database connections, and loads of tests to keep everything running smoothly. 
+Welcome to the heart of a recipe app: a slick backend with user authentication, smooth database connections, and loads of tests to keep everything running. 
 
 ### The purpose of this project is to learn and practice concepts related to:
 > - Building a REST API
